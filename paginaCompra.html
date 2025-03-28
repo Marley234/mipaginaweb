@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">Liquor <br> Store</a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="Imagenes/menu.png" class="menu-icono" alt="men u"></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Reservaciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="Imagenes/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <h1>Licoreria Sky Drink</h1>
+            <p>
+                LICORERIA SKY DRINKS SAC especializada en VENTA AL POR 
+                MENOR Y MAYOR DE TODO TIPO DE BEBIDAS EN COMERCIOS ESPECIALIZADOS
+            </p>
+            <div class="botones">
+                <a href="#" class="btn-1">Mas informacion</a>
+                <a href="#" class="btn-1">Menu</a>
+            </div>
+
+            <divc class="sociales-1">
+                <img src="Imagenes/s1.svg" alt="">
+                <img src="Imagenes/s2.svg" alt="">
+                <img src="Imagenes/s3.svg" alt="">
+            </div>
+            <a href="#lista">
+                <img class="arrow" src="Imagenes/arrow.svg" alt="">
+            </a>
+        </div>
+    </header>
+
+
+
+        <section class="tipos container">
+            <div class="licores-1">
+                <h3>A continuación te dejamos una muestra de los mejores gines y vodkas que tenemos en Licoreria Sky Drink</h3>
+                <hr>
+                <p>Licores de alta calidad y mejores precios</p>
+            </div>
+            <div class="licores-2">
+                <h2>Aprovecha YA! <br> </h2>
+            </div>
+        </section>
+
+
+
+        <section class="licores container" id="lista">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> VODKA ABSOLUT <br>Botella de 750 ml </h3>
+                            <p class="precio">S/59.90</p>
+                            <img src="Imagenes/v7.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3>VODKA SKYY <br>Botella de 750 ml</h3>
+                            <p class="precio">S/47.90</p>
+                            <img src="Imagenes/v8.jpg" alt="" >
+                            <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> VODKA GREY GOOSE <br>Botella de 750 ml</h3>
+                            <p class="precio">S/174.90</p>
+                            <img src="Imagenes/v9.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> VODKA STOLICHNAYA <br>Botella de 750 ml</h3>
+                            <p class="precio">S/162.90</p>
+                            <img src="Imagenes/v13.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3> VODKA GIN HENDRICKS <br>Botella de 750 ml </h3>
+                            <p class="precio">S/139.90</p>
+                            <img src="Imagenes/v12.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                            <p>
+                                <strong>Descripcion</strong>
+                                <br>Lorem
+                            </p>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+
+
+        <section class="Licores container">
+
+            <div class="licor-2">
+                <br><br><h1>Otras mejores alternativas de bebidas a un buen precio:</h1>
+            </div>
+            <div class="licores-1">
+                <hr>
+                <p>Ron, Whiskys, vino, pisco, champagne, etc</p><br>
+            </div>
+            
+        </section>
+
+       
+
+
+        <section class="licores container" id="lista-2">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> BRANDY BARDINET <br>Botella de 750 ml </h3>
+                            <p class="precio">S/63.90</p>
+                            <img src="Imagenes/f1.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> CHAMPAGNE DOM PERIGNON VINTAGE BRUT <br>Botella de 750 ml</h3>
+                            <p class="precio">S/1,710.00</p>
+                            <img src="Imagenes/f2.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> Licor Jagermeister</h3>
+                            <p class="precio">S/69.90</p>
+                            <img src="Imagenes/f3.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>    
+                    
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="fuerte">
+                            <h3 class="c1"> RON BARCELÓ AÑEJO Garrafa <br>Botella de 1.75 L </h3>
+                            <p class="precio">S/75.90</p>
+                            <img src="Imagenes/f4.jpg" alt="">
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                            <p class="c2">
+                                <br><strong>Descripcion </strong>
+                                <br> jasdjsad
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="licores container">
+
+            <div class="licor-1">
+
+                <hr>
+                <p>Contacto</p>
+            </div>
+            
+        </section>
+
+
+
+        <footer class="footer container">
+
+            <div class="links">
+                <div class="link">
+                    <h3>Conocenos</h3>
+                    <p>
+                        Licoreria247 Es la Licorería Delivery con los Mejores Licores
+                         en oferta y Promociones de Licores en Lima, Perú. Tenemos la 
+                         mayor variedad de licores, con categorías como Whisky, Ron, 
+                         Vodka, Gin, Vinos, Espumante, Pisco, etc.
+                    </p>
+                    <h3>Siguenos en:</h3>
+                    <div class="sociales-2">
+                        <img src="Imagenes/s1.svg" alt="">
+                        <img src="Imagenes/s2.svg" alt="">
+                        <img src="Imagenes/s3.svg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="link">
+                    <h3>Clientes</h3>
+                    <ul>
+                        <li><a href="https://licoreria247.pe/terminos-y-condiciones/">Términos & Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Política de Tratamiento de Datos</a></li>
+                    </ul>
+                </div>
+
+                <div class="link">
+                    <h3>Enlaces de interés</h3>
+                    <ul>
+                        <li><a href="#">Tu nuevo delivery de licores</a></li>
+                        <li><a href="#">Cómo detectar licores falsificados</a></li>
+                        <li><a href="#">Vende con nosotros</a></li>
+                        <li><a href="https://licoreria247.pe/libro-de-reclamaciones/"></a><img src="Imagenes/libro.webp" width="220px" height="130px" alt=""></li>
+                    </ul>
+                </div>
+
+
+                <div class="link">
+                    <h4>Ingresa tus datos para comprar articulos</h4>
+                    <br><h3>Registrate</h3>
+                    <form>
+                        <input type="text" placeholder="Nombre" class="inp">
+                        <input type="email" placeholder="Email" class="inp">
+                        <textarea class="inp"></textarea>
+                        <input class="btn-4" type="submit" value="enviar">
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
